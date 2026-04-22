@@ -1,5 +1,5 @@
 import React from 'react';
-
+import focusImage from '../assets/focusImage.jpg'
 const processSteps = [
   {
     number: "01",
@@ -11,7 +11,7 @@ const processSteps = [
     number: "02",
     title: "Design & Prototype",
     description: "Detailed wireframes and interactive prototypes.",
-    image: "focus.jpg",
+    image: focusImage,
   },
   {
     number: "03",
