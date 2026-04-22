@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState , useEffect } from 'react';
+import robotImage from './assets/robotImage.jpg'
 
 export default function RobotHandSection() {
    
@@ -52,7 +53,7 @@ const [visible, setVisible] = useState(false);
               transition: "opacity 0.8s ease 0.1s, transform 0.8s ease 0.1s",
             }}
           >
-            <img src="/robotImage.jpg" className="w-full rounded-2xl object-cover" />
+            <img src={robotImage} className="w-full rounded-2xl object-cover" />
             {/* Subtle shadow beneath image */}
             <div
               className="absolute -bottom-4 left-6 right-6 h-8 rounded-full opacity-20 blur-xl"
