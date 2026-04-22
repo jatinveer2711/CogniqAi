@@ -20,14 +20,7 @@ const [visible, setVisible] = useState(false);
         fontFamily: "'Georgia', serif",
       }}
     >
-      {/* Grid texture */}
-      {/* <div className="absolute inset-0 opacity-30" style={{
-        backgroundImage: `
-          linear-gradient(rgba(100,100,180,0.08) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(100,100,180,0.08) 1px, transparent 1px)
-        `,
-        backgroundSize: "40px 40px",
-      }}/> */}
+    
  
      
  
@@ -59,7 +52,7 @@ const [visible, setVisible] = useState(false);
               transition: "opacity 0.8s ease 0.1s, transform 0.8s ease 0.1s",
             }}
           >
-            <img src="robotImage.jpg" className="w-full rounded-2xl object-cover" />
+            <img src="/robotImage.jpg" className="w-full rounded-2xl object-cover" />
             {/* Subtle shadow beneath image */}
             <div
               className="absolute -bottom-4 left-6 right-6 h-8 rounded-full opacity-20 blur-xl"
